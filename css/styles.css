@@ -8,17 +8,19 @@
 
 :root {
   --dark-text-color: #434455;
-  --light-text-color: #FFFFFF;
-  --dark-header-color: #2E2F42;
-  --hover-link-color: #4D5AE5;
-  }
-  
-body{
- font-family: "Roboto", sans-serif;   
+  --light-text-color: #ffffff;
+  --dark-header-color: #2e2f42;
+  --hover-link-color: #4d5ae5;
+  --focus-button-color: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark-text-color);
 }
 
 /*header*/
-.top-header {
+/*.top-header {
 }
 .top-nav {
 }
@@ -29,8 +31,7 @@ body{
 .list {
 }
 .menu-item {
-
-}
+}*/
 .menu-link {
   font-weight: 600;
   font-size: 16px;
@@ -38,17 +39,54 @@ body{
   letter-spacing: 0.02em;
   color: var(--dark-header-color);
 }
-.menu-link:hover, .menu-link:focus{
-  color: var(--hover-link-color)
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--hover-link-color);
 }
-.email, .phone-number {
-    font-size: 16px;
-    line-height: 1.5;  
-    letter-spacing: 0.02em;
-    color: var(--dark-text-color);
+.email,
+.phone-number {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-text-color);
 }
-.email:hover, .email:focus {
-  color: var(--hover-link-color)  
+.email:hover,
+.email:focus {
+  color: var(--hover-link-color);
 }
+/*hero*/
+.hero{
+  background: var(--dark-header-color);
+}
+.hero-title{
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07; 
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--light-text-color);
+} 
 .modal-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--light-text-color);
+  background: var(--hover-link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.modal-button:hover {
+  background: var(--hover-link-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 4px;
+}
+.modal-button:focus {
+  background: var(--focus-button-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
