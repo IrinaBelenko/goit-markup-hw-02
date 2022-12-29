@@ -1,10 +1,54 @@
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+:root {
+  --dark-text-color: #434455;
+  --light-text-color: #FFFFFF;
+  --dark-header-color: #2E2F42;
+  --hover-link-color: #4D5AE5;
+  }
+  
+body{
+ font-family: "Roboto", sans-serif;   
 }
 
 /*header*/
+.top-header {
+}
+.top-nav {
+}
+.link-logo {
+}
+.menu {
+}
+.list {
+}
+.menu-item {
 
+}
+.menu-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-header-color);
+}
+.menu-link:hover, .menu-link:focus{
+  color: var(--hover-link-color)
+}
+.email, .phone-number {
+    font-size: 16px;
+    line-height: 1.5;  
+    letter-spacing: 0.02em;
+    color: var(--dark-text-color);
+}
+.email:hover, .email:focus {
+  color: var(--hover-link-color)  
+}
+.modal-button {
+}
