@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--dark-text-color);
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -18,30 +18,28 @@ body {
   --dark-header-color: #2e2f42;
   --hover-link-color: #4d5ae5;
   --focus-button-color: #404bbf;
+  --footer-text-color: #e7e9fc;
 }
 /*components */
-.text-header-h2{
+.text-header-h2 {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-header-color);
 }
 
-.text-header-h3{
+.text-header-h3 {
   font-weight: 600;
   font-size: 20px;
-  line-height: 1.2; 
-  letter-spacing: 0.02em; 
-  color: var(--dark-header-color); 
+  line-height: 1.2;
+  color: var(--dark-header-color);
 }
 
 .text-description {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--dark-text-color);
 }
 /*header*/
@@ -61,7 +59,6 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--dark-header-color);
 }
 .menu-link:hover,
@@ -72,7 +69,6 @@ body {
 .phone-number {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--dark-text-color);
 }
 .email:hover,
@@ -89,7 +85,6 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   color: var(--light-text-color);
 }
 .modal-button {
@@ -117,8 +112,11 @@ body {
   border-radius: 4px;
 }
 
-/*feature*/
+/*footer*/
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--footer-text-color);
+}
 
-/*What are we doing*/
-
-/*Our Team*/
